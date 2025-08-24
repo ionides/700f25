@@ -1,0 +1,55 @@
+---
+title: "STATS 700-002 Class 1.\\newline Background on phylodynamics"
+author:
+  - "Edward Ionides and Aaron King"
+date: August 28, 2025
+date-format: long
+format:
+  beamer:
+    cite-method: natbib
+    biblio-style: apalike
+    header-includes: |
+      \setbeamertemplate{footline}[page number]
+
+bibliography: ../phylodynamics.bib
+
+---
+
+## Outline
+
+- The pre-history of phylodynamics and its initial synthesis by \citet{Grenfell2004}.
+
+    + Increases in the availability and length of genetic sequence data
+
+    + Challenges for interpretation of the resulting trees of evolutionary relationships.
+
+    + A need for model-based statistical inference
+
+- A brief overview of advances 2005-2025 motivating this course.
+
+    + Continuing growth in data collection and developments in inference methodology
+
+    + Lessons from the COVID-19 pandemic
+
+    + Current challenges, scientific and statistical
+
+----
+
+\includegraphics[width=10cm]{fig1AB.png}
+
+----
+
+\includegraphics[width=9.5cm]{fig1DE.png}
+
+----
+
+\includegraphics[width=11cm]{fig2.png}
+
+----
+
+\includegraphics[width=9cm]{fig3.png}
+
+
+# References
+
+

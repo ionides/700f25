@@ -1,0 +1,125 @@
+\usefonttheme[onlymath]{serif}
+% use article-like math letters, from http://tex.stackexchange.com/questions/34265/how-to-get-beamer-math-to-look-like-article-math
+
+
+\newcommand\bi{\begin{itemize}}
+\newcommand\ei{\end{itemize}}
+\newcommand\simMC{\stackrel{\scriptscriptstyle{MC}}{\sim}}
+
+
+% from genPomp ms
+\newcommand\T{\mathbb{T}}
+\newcommand\transmission{\mathcal{T}}
+\newcommand\observation{\mathcal{G}}
+\newcommand\observationTree{genetic tree}
+\newcommand\descendents{h}
+\newcommand\sequenceLabel{q}
+\newcommand\tInit{t_{0}}
+\newcommand\tRoot{t_{\mathrm{root}}}
+\newcommand\tEnd{t_{\mathrm{end}}}
+\newcommand{\circled}[1]{
+  \kern-0.4em \raisebox{.1pt}{\textcircled{\raisebox{-.9pt} {#1}}}
+}
+
+\usepackage{natbib}
+\usepackage{url}
+%\usepackage{ulem}
+%\renewcommand\emph[1]{{\it #1}} % the ulem package redefines \emph
+%\renewcommand\em{\it} % the ulem package redefines \emph
+
+\usepackage{xcolor}
+\usepackage{colortbl}
+%\definecolor{olive}{rgb}{0.3, 0.4, .1}
+%\definecolor{dgreen}{rgb}{0.,0.6,0.}
+%\definecolor{gold}{rgb}{1.,0.84,0.}
+%\definecolor{JungleGreen}{cmyk}{0.99,0,0.52,0}
+%\definecolor{BlueGreen}{cmyk}{0.85,0,0.33,0}
+%\definecolor{RawSienna}{cmyk}{0,0.72,1,0.45}
+%\definecolor{Magenta}{cmyk}{0,1,0,0}
+
+\usepackage{graphicx} % Allows including images
+%\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\mode<presentation> {
+
+\usetheme{Madrid}
+
+%%\setbeamertemplate{footline}[frame number]
+\setbeamertemplate{footline}{
+  \hfill%
+  \usebeamercolor[fg]{page number in head/foot}%
+  \usebeamerfont{page number in head/foot}%
+  \setbeamertemplate{page number in head/foot}[framenumber]%
+  \usebeamertemplate*{page number in head/foot}\kern1em\vskip2pt%
+}
+
+\setbeamertemplate{navigation symbols}{} 
+
+}
+
+\newcommand\myemph[1]{{\textbf{#1}}}
+\newcommand\enumerateSpace{\hspace{2mm}}
+\usepackage{amssymb}
+\newenvironment {myitemize} {
+                 \begin{list}{\textcolor{black}{$\bullet$} \hfill}
+%                 \begin{list}{\textcolor{blue}{{\small{$\blacktriangleright$}}} \hfill}
+                 {\setlength{\labelwidth}{0.3 cm}
+                  %\setlength{\leftmargin}{0em}
+                  \setlength{\leftmargin}{0.15cm}
+                  \setlength{\itemindent}{0.15cm}
+                  \setlength{\labelsep}{0cm}
+                  \setlength{\parsep}{0.2 ex}
+%                  \setlength{\itemsep}{0.25 cm}
+                  \setlength{\itemsep}{1 mm}
+%                   \setlength{\itemsep}{0.0 cm}
+      \setlength{\topsep}{0.0cm}}} %space between title and 1st item
+   {\end{list}}
+
+\newcommand\code[1]{\texttt{#1}}
+\usepackage{url}
+
+%% customized math macros
+\newcommand\prob{\mathbb{P}}
+\newcommand\E{\mathbb{E}}
+\newcommand\dd[1]{\mathrm{d}{#1}}
+\newcommand\given{{\,\vert\,}}
+\newcommand\equals{{{\,}={\,}}} 
+\newcommand\myequals{\hspace{0.5mm}{=}\hspace{0.5mm}}
+\newcommand\myto{{\;:\;}}
+\newcommand\seq[2]{{#1}\!:\!{#2}}
+\newcommand\mydot{{\,\cdot\,}}
+\newcommand\cp[2]{N_{\mathrm{#1}\mathrm{#2}}}
+\newcommand\giventh{{\hspace{0.5mm};\hspace{0.5mm}}}
+%\newcommand\normal{{\mathrm{Normal}}}
+\newcommand\normal{\mathcal{N}}
+\newcommand\argequals{{\,=\,}}
+\newcommand\lags{c}
+\newcommand\maxlag{\overline{c}}
+\newcommand\nlfList{C}
+\newcommand\bigO{\mathcal{O}}
+\newcommand\loglik{\lambda}
+\newcommand\loglikMC{\MC{\loglik}}
+\newcommand\R{\mathbb{R}}
+\newcommand\param{\,;}
+\newcommand\mycolon{{\hspace{0.6mm}:\hspace{0.6mm}}}
+\newcommand\MC[1]{#1^{\,\mbox{\tiny MC}}}
+%\newcommand\EMC{\MC{\E}}
+\newcommand\EMC{{\E}}
+\newcommand\Var{\mathrm{Var}}
+\newcommand\var{\Var}
+\newcommand\Cov{\mathrm{Cov}} 
+\newcommand\cov{\Cov}
+\newcommand\iid{\mathrm{iid}}
+%\newcommand\dist{\mathrm{dist}}
+\newcommand\dist{d}
+\newcommand\transpose{\top}
+
+%% for particle filters
+\newcommand\unit{u}
+\newcommand\altUnit{\tilde u}
+\newcommand\Unit{U}
+%\usepackage[mathscr]{euscript}
+\renewcommand\time{n}
+%\renewcommand\vec[1]{\boldsymbol{#1}}
+\newcommand\Time{N}
+\newcommand\Np{J}
+\newcommand\np{j}
