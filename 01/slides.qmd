@@ -33,13 +33,83 @@ bibliography: ../phylodynamics.bib
 
     + Current challenges, scientific and statistical
 
-----
+## Glossary
 
-\includegraphics[width=10cm]{fig1AB.png}
+* Pathogen. Virus, bacterium or other micro-organism which multiply in a host, causing disease.
+
+* Phylogeny/genealogy. Ancestral tree for a group of individuals. Here, the individuals are pathogens.
+
+* Epidemiology. The study of the cause and spread of disease, defaulting to infectious disease of humans.
+
+* Immunity. Partial or complete protection from infection.
 
 ----
 
 \includegraphics[width=9.5cm]{fig1DE.png}
+
+
+## What is phylodynamics?
+
+__The forward problem__: How do observed phylogenies arise from "pathogen genetic variation, modulated by host immunity, transmission bottlenecks, and epidemic dynamics."
+
+__The inverse problem__: Inferring disease dynamics from observed phylogenies. What scientific & public health questions can phylogenies address?
+
+__Note__: raw data are genetic sequences (or possibly phenotype measurements) not trees. We may analyze derived data, "observed trees," or the raw data.
+
+## The need for models and formal statistical inference
+
+* Good descriptive statistics and graphics are important for data analysis.
+
+* Formal quantitative inference also has a role.
+
+    + Models about which we can make statistical statements to compare them to data.
+
+    + What are the tools we need for quantitative phylodynamics?
+
+
+## Reading Grenfell et al. (2004) as a statistical scientist in 2025.
+
+* There are many words to look up on Google/Wikipedia.
+
+* The paper focuses on the forward problem (how biology affects the observed tree).
+
+* This raises the possibility of the inferential inverse problem, but does not tell you how to do the statistics.
+
+* An example of a forward-looking review paper.
+
+## Statistical/probabilistic abstraction
+
+* Hosts are susceptible (S), infected/infectious (I), or recovered/removed (R).
+
+* Chance interactions between S and I hosts lead to a transmission event ($S\rightarrow I$) and a new infection.
+<!--
+\begin{eqnarray}
+S + I \rightarrow 2I
+\end{eqnarray}
+-->
+
+* Supposing each new infection has a unique source, called its ancestor, this sequence of random infection events implies a random ancestral tree connecting any collection of observed individuals.
+
+* Probability models of this kind, built up of random variables that determine how the process progresses through time, are called __stochastic processes__.
+
+* The corresponding statistical inverse problem is __inference for stochastic processes__.
+
+
+## Knowledge pre-test
+
+Which of the following are at least somewhat familiar to you? If you can, write a few words to say what they mean to you.
+
+__Epidemiology__.  DNA. RNA. Darwinian evolution. Virus. Vaccine. $R_0$. 
+
+__Stochastic processes__. Markov chain. Kolmogorov's forward equation. Branching process. Birth-death process. Brownian motion. Poisson process. Stochastic differential equation. 
+
+__Statistics__. Efficient estimate. Maximum likelihood estimate. Akaike's information criterion. Importance sampling. Markov chain Monte Carlo. Sequential Monte Carlo. Fisher information.  
+
+
+----
+
+\includegraphics[width=10cm]{fig1AB.png}
+
 
 ----
 
@@ -48,6 +118,7 @@ bibliography: ../phylodynamics.bib
 ----
 
 \includegraphics[width=9cm]{fig3.png}
+
 
 
 # References
