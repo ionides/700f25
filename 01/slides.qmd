@@ -21,7 +21,7 @@ bibliography: ../phylodynamics.bib
 
     + Increases in the availability and length of genetic sequence data
 
-    + Challenges for interpretation of the resulting trees of evolutionary relationships.
+    + Challenges for interpretation of the resulting trees of ancestral relationships.
 
     + A need for model-based statistical inference
 
@@ -54,7 +54,7 @@ __The forward problem__: How do observed phylogenies arise from "pathogen geneti
 
 __The inverse problem__: Inferring disease dynamics from observed phylogenies. What scientific & public health questions can phylogenies address?
 
-__Note__: raw data are genetic sequences (or possibly phenotype measurements) not trees. We may analyze derived data, "observed trees," or the raw data.
+__Note__: ``observed trees'' are derived data, usually constructed from aligned genetic sequence data. These sequences are derived data from uncertain estimates pieced together from genetic fragments measured sequencing machines. We depend on a bioinformatics pipeline extending beyond the topic of this course.
 
 ## The need for models and formal statistical inference
 
@@ -62,16 +62,16 @@ __Note__: raw data are genetic sequences (or possibly phenotype measurements) no
 
 * Formal quantitative inference also has a role.
 
-    + Models about which we can make statistical statements to compare them to data.
+    + Models enable statistical statements when compared to data.
 
     + What are the tools we need for quantitative phylodynamics?
 
 
 ## Reading Grenfell et al. (2004) as a statistical scientist in 2025.
 
-* There are many words to look up on Google/Wikipedia.
+* There are many words to look up on Google/Wikipedia/ChatGPT.
 
-* The paper focuses on the forward problem (how biology affects the observed tree).
+* The paper focuses on the forward problem: how does biology explain the observed tree?
 
 * This raises the possibility of the inferential inverse problem, but does not tell you how to do the statistics.
 
@@ -81,14 +81,14 @@ __Note__: raw data are genetic sequences (or possibly phenotype measurements) no
 
 * Hosts are susceptible (S), infected/infectious (I), or recovered/removed (R).
 
-* Chance interactions between S and I hosts lead to a transmission event ($S\rightarrow I$) and a new infection.
+* Chance interactions between S and I individuals may lead to a transmission event ($S\rightarrow I$) and a new infection.
 <!--
 \begin{eqnarray}
 S + I \rightarrow 2I
 \end{eqnarray}
 -->
 
-* Supposing each new infection has a unique source, called its ancestor, this sequence of random infection events implies a random ancestral tree connecting any collection of observed individuals.
+* If each new infection has a unique source, called its ancestor, the sequence of random infection events implies a random ancestral tree connecting any collection of observed individuals.
 
 * Probability models of this kind, built up of random variables that determine how the process progresses through time, are called __stochastic processes__.
 
@@ -97,13 +97,14 @@ S + I \rightarrow 2I
 
 ## Knowledge pre-test
 
-Which of the following are at least somewhat familiar to you? If you can, write a few words to say what they mean to you.
+Which of the following are at least somewhat familiar to you? Can you say what they mean to you in a few words?
+
 
 __Epidemiology__.  DNA. RNA. Darwinian evolution. Virus. Vaccine. $R_0$. 
 
 __Stochastic processes__. Markov chain. Kolmogorov's forward equation. Branching process. Birth-death process. Brownian motion. Poisson process. Stochastic differential equation. 
 
-__Statistics__. Efficient estimate. Maximum likelihood estimate. Akaike's information criterion. Importance sampling. Markov chain Monte Carlo. Sequential Monte Carlo. Fisher information.  
+__Statistics__. Maximum likelihood estimate.  Efficient estimate. Akaike's information criterion.  Importance sampling. Markov chain Monte Carlo. Sequential Monte Carlo. Fisher information.  
 
 
 ----
@@ -115,10 +116,17 @@ __Statistics__. Efficient estimate. Maximum likelihood estimate. Akaike's inform
 
 \includegraphics[width=11cm]{fig2.png}
 
+EIP: Evolutionary Infectivity Profile, combining abundance and selective pressure.
+
 ----
 
 \includegraphics[width=9cm]{fig3.png}
 
+----
+
+\includegraphics[width=6cm]{fig1C.png} \includegraphics[width=3cm]{fig1G.png}
+
+\includegraphics[width=4cm]{fig1I.png} HIV dynamics (Fig. 1)
 
 
 # References
