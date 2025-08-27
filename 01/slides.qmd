@@ -129,6 +129,25 @@ EIP: Evolutionary Infectivity Profile, combining abundance and selective pressur
 \includegraphics[width=4cm]{fig1I.png} HIV dynamics (Fig. 1)
 
 
+----
+
+## Recent uses of phylodynamics
+
+* Estimation of epidemiological model parameters
+
+* Estimating time of emergence of new pathogens before detection and identification
+
+* Phylogeography: trees with spatially labeled leaves can reveal spread
+
+* Identification of new pathogen strains having a competitive advantage
+
+
+----
+
+\includegraphics[width=8.8cm]{nguyen25-fig2a.png}  
+\citet{Nguyen2025}, Fig. 2. Highly pathogenic avian influenza
+
+
 # References
 
 
