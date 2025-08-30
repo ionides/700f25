@@ -19,7 +19,7 @@ __Syllabus__. The following schedule may be updated as the course proceeds.
 
 1. [8/28, Presented as introduction in the first class] Grenfell, B. T., Pybus, O. G., Gog, J. R., Wood, J. L., Daly, J. M., Mumford, J. A., & Holmes, E. C. (2004). Unifying the epidemiological and evolutionary dynamics of pathogens. _Science_, 303(5656), 327-332. [https://doi.org/10.1126/science.1090727](https://doi.org/10.1126/science.1090727). [slides](01/slides.pdf).
 
-2. [9/4] Kingman, J. F. C. (1982). The coalescent. _Stochastic Processes and their Applications_, 13(3), 235-248. [https://doi.org/10.1016/0304-4149(82)90011-4](https://doi.org/10.1016/0304-4149(82)90011-4).
+2. [9/4] Kingman, J. F. C. (1982). The coalescent. _Stochastic Processes and their Applications_, 13(3), 235-248. [https://doi.org/10.1016/0304-4149(82)90011-4](https://doi.org/10.1016/0304-4149(82)90011-4). [homework description](02).
 
 3. [9/11] Volz, E. M., Kosakovsky Pond, S. L., Ward, M. J., Leigh Brown, A. J., & Frost, S. D. (2009). Phylodynamics of infectious disease epidemics. _Genetics_, 183(4), 1421-1430. [https://doi.org/10.1534/genetics.109.106021](https://doi.org/10.1534/genetics.109.106021).
 
