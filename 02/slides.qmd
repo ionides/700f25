@@ -1,0 +1,39 @@
+---
+title: |
+  STATS 700-002 Class 2.  
+  The coalescent  
+author:
+  - "Edward Ionides and Aaron King"
+date: August 28, 2025
+date-format: long
+format:
+  beamer:
+    cite-method: natbib
+    biblio-style: apalike
+    header-includes: |
+      \setbeamertemplate{footline}[page number]
+
+bibliography: ../phylodynamics.bib
+---
+
+## The coalescent
+
+## Section 1
+
+- How does the construction of section 1 relate to a genealogical tree?
+
+- What does the assumption (1.3) mean?
+
+- Is the relation $\prec$ defined in (1.4) an order relation?
+
+- Verify that $q_\xi=\binom{|\xi|}{2}$, as claimed in (1.6).
+
+- In terms of genealogical trees, what is the interpretation of the $D_t$ process introduced in (1.8)?
+
+- In terms of genealogical trees, what does the *transit time* $T$ introduced in (1.11) correspond to?
+
+## Theorem 1
+
+- Why does equation (2.1) hold?
+
+- Verify equation (2.2).
