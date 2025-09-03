@@ -1,10 +1,8 @@
 ---
-title: |
-  STATS 700-002 Class 2.  
-  The coalescent  
+title: "STATS 700-002 Class 2.\\newline The coalescent"
 author:
   - "Edward Ionides and Aaron King"
-date: August 28, 2025
+date: September 4, 2025
 date-format: long
 format:
   beamer:
@@ -17,6 +15,9 @@ bibliography: ../phylodynamics.bib
 ---
 
 ## The coalescent
+
+Kingman, J. F. C. (1982). The coalescent. _Stochastic Processes and their Applications_, 13(3), 235-248. [https://doi.org/10.1016/0304-4149(82)90011-4](https://doi.org/10.1016/0304-4149(82)90011-4).
+
 
 ## Section 1
 
@@ -34,6 +35,24 @@ bibliography: ../phylodynamics.bib
 
 ## Theorem 1
 
+- What do we have to know about continuous time Markov chains to follow this proof?
+
 - Why does equation (2.1) hold?
 
 - Verify equation (2.2).
+
+
+## Theorems 3 and 4
+
+- Summarize, in words, what is accomplished by these results.
+
+## Relevance to phylodynamics
+
+- It may be hard at this point to see the relevance of Kingman's coalescent to practical phylodynamic inference.
+
+- Given what we know at this point, conjecture how Kingman's coalescent might be used, or extended to be useful.
+
+
+
+
+

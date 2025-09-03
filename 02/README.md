@@ -13,4 +13,4 @@ You are expected to spend at least 2hr studying this paper, which is fundamental
 
 * Why is this paper considered a major contribution?
 
-In class 2, we will discuss this paper and there will also be time to ask questions about the Grenfell et al. (2004) paper that we discussed last time. It is not essential to read that paper; the discussion in class 1 is all we need to move forward. However, if time permits, that paper is also work some of your attention.
+In class 2, we will discuss this paper and there will also be time to ask questions about the Grenfell et al. (2004) paper that we discussed last time. It is not essential to read that paper; the discussion in class 1 is all we need to move forward. However, if time permits, that paper is also worth some of your attention.
