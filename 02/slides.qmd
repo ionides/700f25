@@ -83,4 +83,8 @@ simulate("Moran",time=10,n=20,psi=0) |>
 
 - What extensions can you envision?
 
+## Section 5
+
+- What is the relationship between the paintbox construction and a genealogical tree?
+
 # Bibliography
