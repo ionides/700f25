@@ -8,6 +8,11 @@ format:
   beamer:
     cite-method: natbib
     biblio-style: apalike
+    incremental: true
+    slide-level: 2
+    classoption: t
+    nocite: |
+      @Kingman1982a, @Kingman1982b, @Kingman1982c, @Wakeley2009
     header-includes: |
       \setbeamertemplate{footline}[page number]
 
@@ -27,7 +32,7 @@ Kingman, J. F. C. (1982). The coalescent. _Stochastic Processes and their Applic
 
 - Is the relation $\prec$ defined in (1.4) an order relation?
 
-- Verify that $q_\xi=\binom{|\xi|}{2}$, as claimed in (1.6).
+- How can we see that $q_\xi=\binom{|\xi|}{2}$, as claimed in (1.6)?
 
 - In terms of genealogical trees, what is the interpretation of the $D_t$ process introduced in (1.8)?
 
@@ -39,20 +44,21 @@ Kingman, J. F. C. (1982). The coalescent. _Stochastic Processes and their Applic
 
 - Why does equation (2.1) hold?
 
-- Verify equation (2.2).
+- How can we see why equation (2.2) holds?
 
 
 ## Theorems 3 and 4
 
-- Summarize, in words, what is accomplished by these results.
+- What does Theorem 3 accomplish?
+
+- What is accomplished by Theorem 4?
 
 ## Relevance to phylodynamics
 
-- It may be hard at this point to see the relevance of Kingman's coalescent to practical phylodynamic inference.
+- What is the relevance of Kingman's coalescent to practical phylodynamic inference?
 
-- Given what we know at this point, conjecture how Kingman's coalescent might be used, or extended to be useful.
+- Given what we know at this point, how might Kingman's coalescent be used?
 
+- What extensions can you envision?
 
-
-
-
+# Bibliography
