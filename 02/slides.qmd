@@ -38,6 +38,28 @@ Kingman, J. F. C. (1982). The coalescent. _Stochastic Processes and their Applic
 
 - In terms of genealogical trees, what does the *transit time* $T$ introduced in (1.11) correspond to?
 
+## Coalescent trees
+
+```{r plots,echo=FALSE}
+library(tidyverse)
+library(phylopomp)
+set.seed(5996843)
+```
+
+```{r,echo=FALSE}
+simulate("Moran",time=30,n=20,psi=0) |>
+  plot(prune=FALSE)+
+  labs(x="time")
+```
+
+-----------------
+
+```{r,echo=FALSE}
+simulate("Moran",time=10,n=20,psi=0) |>
+  plot(prune=FALSE)+
+  labs(x="time")
+```
+
 ## Theorem 1
 
 - What do we have to know about continuous time Markov chains to follow this proof?

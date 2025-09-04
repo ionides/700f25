@@ -1,10 +1,10 @@
 # STATS 700. Topics in Applied Statistics: Phylodynamic Inference
 
-__Instructors__. [Aaron King](https://kinglab.eeb.lsa.umich.edu/) and [Edward Ionides](https://ionides.github.io/)
+__Instructors__. [Aaron King](https://kinglab.eeb.lsa.umich.edu/king) and [Edward Ionides](https://ionides.github.io/)
 
 Open to PhD and Masters students. Suitably prepared undergraduates may be admitted with instructor permission.
 
-Thu 1:00-2:30, 242 West Hall
+Thu 1:00&ndash;2:30, 242 West Hall
 <!--
 in 453 West Hall. If enrollment requires, we will move to a larger location. 
 -->
