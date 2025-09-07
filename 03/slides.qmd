@@ -1,0 +1,62 @@
+---
+title: "STATS 700-002 Class 3.\\newline The Volz Coalescent"
+author:
+  - "Edward Ionides and Aaron King"
+date: September 11, 2025
+date-format: long
+format:
+  beamer:
+    cite-method: natbib
+    biblio-style: apalike
+    incremental: true
+    slide-level: 2
+    classoption: t
+    header-includes: |
+      \setbeamertemplate{footline}[page number]
+
+bibliography: ../phylodynamics.bib
+---
+
+## The Volz Coalescent
+
+Volz, E. M., Kosakovsky Pond, S. L., Ward, M. J., Leigh Brown, A. J., & Frost, S. D. (2009). Phylodynamics of infectious disease epidemics. Genetics, 183(4), 1421-1430. https://doi.org/10.1534/genetics.109.106021.
+
+* Overview: Kimgman's coalescent provides a link between the observed rate of coalescence, the _effective population size_ and the generation interval, in a fixed-size population.
+
+* A time-varying population can be approximated as piecewise constant.
+Volz et al. (volz09) noticed that this can be inappropriate for fast-changing populations and derived an alternative approach.
+
+
+
+## Cluster size distributions
+
+- Why are \citep{Volz2009a} so interested in cluster size distribution? 
+
+## The ancestor function
+
+- $A(t,T)$ is defined as the  "fraction of the population at $t$ with sampled progeny extant at $T$.
+
+  Does "population" here mean "host population, $N$" or "population of infected hosts, $\mathcal{I}$"?
+
+
+## Intuition
+
+- From the introduction, "Coalescent rates are low near peak prevalence, but higher when there is a large ratio of incidence to prevalence."
+
+  How is this evident?
+
+
+## Likelihood
+
+- Equation (12) is written in terms of $A(t,T)$, which is a property of the model not of the data.
+
+  How can this be considered a likelihood?
+
+
+## Comparison with the skyline plot
+
+\includegraphics[width=10.5cm]{volz09-fig3.png}
+
+
+# References
+
