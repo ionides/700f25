@@ -45,6 +45,15 @@ Volz et al. (volz09) noticed that this can be inappropriate for fast-changing po
 
   How is this evident?
 
+## Definition or derivation
+
+- Consider equation (2):
+$$ dA(t,T)/dt = f_{SI} p_c.$$
+Is this a definition of $A(t,T)$ for some model, or is it derived?
+
+- Either way, once a model gives us $p_c(t,T)$, this defines a coalescent process having coalescent rate $f_{SI}p_c$.
+
+- Note, this depends on the expected number of lineages (normalized as the large sample fraction) not the actual number.
 
 ## Likelihood
 
@@ -56,6 +65,7 @@ Volz et al. (volz09) noticed that this can be inappropriate for fast-changing po
 ## Comparison with the skyline plot
 
 \includegraphics[width=10.5cm]{volz09-fig3.png}
+
 
 
 # References
