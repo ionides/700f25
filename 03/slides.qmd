@@ -11,32 +11,34 @@ format:
     incremental: true
     slide-level: 2
     classoption: t
-    header-includes: |
-      \setbeamertemplate{footline}[page number]
+    header-includes:
+      - \usepackage{amssymb}
+      - \setbeamertemplate{footline}[page number]
 
 bibliography: ../phylodynamics.bib
 ---
 
 ## The Volz Coalescent
 
-Volz, E. M., Kosakovsky Pond, S. L., Ward, M. J., Leigh Brown, A. J., & Frost, S. D. (2009). Phylodynamics of infectious disease epidemics. Genetics, 183(4), 1421-1430. https://doi.org/10.1534/genetics.109.106021.
+Volz, E. M., Kosakovsky Pond, S. L., Ward, M. J., Leigh Brown, A. J., & Frost, S. D. (2009). Phylodynamics of infectious disease epidemics. Genetics, 183(4), 1421&ndash;1430. https://doi.org/10.1534/genetics.109.106021.
 
-* Overview: Kimgman's coalescent provides a link between the observed rate of coalescence, the _effective population size_ and the generation interval, in a fixed-size population.
+* Overview: Kingman's coalescent provides a link between the observed rate of coalescence, the _effective population size_ and the generation interval, in a fixed-size population.
 
 * A time-varying population can be approximated as piecewise constant.
-Volz et al. (volz09) noticed that this can be inappropriate for fast-changing populations and derived an alternative approach.
-
+@Volz2009a noticed that this can be inappropriate for fast-changing populations and derived an alternative approach.
 
 
 ## Cluster size distributions
 
-- Why are \citep{Volz2009a} so interested in cluster size distribution? 
+- Why are @Volz2009a interested in cluster size distribution? 
 
 ## The ancestor function
 
 - $A(t,T)$ is defined as the  "fraction of the population at $t$ with sampled progeny extant at $T$.
 
-  Does "population" here mean "host population, $N$" or "population of infected hosts, $\mathcal{I}$"?
+- Does "population" here mean "host population, $N$" or "population of infected hosts, $\mathcal{I}$"?
+
+- What roles are played by the assumption that the population size is large?
 
 
 ## Intuition
@@ -45,13 +47,13 @@ Volz et al. (volz09) noticed that this can be inappropriate for fast-changing po
 
   How is this evident?
 
-## Definition or derivation
+## Definition or derivation?
 
 - Consider equation (2):
-$$ dA(t,T)/dt = f_{SI} p_c.$$
+$$\frac{\partial{A(t,T)}}{\partial{t}} = f_{SI}\,p_c.$$
 Is this a definition of $A(t,T)$ for some model, or is it derived?
 
-- Either way, once a model gives us $p_c(t,T)$, this defines a coalescent process having coalescent rate $f_{SI}p_c$.
+- Either way, once a model gives us $p_c(t,T)$, this defines a coalescent process having coalescent rate $f_{SI}\,p_c$.
 
 - Note, this depends on the expected number of lineages (normalized as the large sample fraction) not the actual number.
 
@@ -61,10 +63,20 @@ Is this a definition of $A(t,T)$ for some model, or is it derived?
 
   How can this be considered a likelihood?
 
+## Sufficient statistics
+
+- In the Introduction, Volz et al. claim that "...branching patterns provide information about the frequency of transmissions over time."
+
+  This begs the question:
+  What, according to @Volz2009a, are sufficient statistics for the frequency of transmissions over time?
+
 
 ## Comparison with the skyline plot
 
-\includegraphics[width=10.5cm]{volz09-fig3.png}
+\includegraphics[width=0.8\linewidth]{volz09-fig3.png}
+
+Does it indeed "...seem surprising that the SIR model based on ODEs outperforms the generalized skyline even in the presence of stochasticity at small population sizes"?
+Why or why not?
 
 
 
