@@ -50,10 +50,10 @@ Volz, E. M., Kosakovsky Pond, S. L., Ward, M. J., Leigh Brown, A. J., & Frost, S
 ## Definition or derivation?
 
 - Consider equation (2):
-$$\frac{\partial{A(t,T)}}{\partial{t}} = f_{SI}\,p_c.$$
+$$\frac{\partial{A(t,T)}}{\partial{t}} = f_{SI}\,p_c = f_{SI}\,\left(\frac{A}{I}\right)^2.$$
 Is this a definition of $A(t,T)$ for some model, or is it derived?
 
-- Either way, once a model gives us $p_c(t,T)$, this defines a coalescent process having coalescent rate $f_{SI}\,p_c$.
+- Either way, once a model gives us $f_{SI}$, this defines a coalescent process having coalescent rate $f_{SI}\,p_c$.
 
 - Note, this depends on the expected number of lineages (normalized as the large sample fraction) not the actual number.
 
