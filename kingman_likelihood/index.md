@@ -31,11 +31,14 @@ Recall that Wright-Fisher corresponds to multinomial selection of descendants at
 * Griffiths and Tavare (1994) extended this argument to a time-varying function $\lambda(t)$.
 The identifiability issue between time-varying $n$ and $\beta$ remains.
 
+* Pybus et al. (2000) introduced a non-parametric piecewise constant estimate of $\lambda(t)$ known as the _skyline plot_.
+
 ## References
 
 Griffiths, R. C., and S. Tavare, 1994 Sampling theory for neutral
 alleles in a varying environment. Philos. Trans. R. Soc. B Biol. Sci.
-344: 403–410. [https://www.jstor.org/stable/56112](https://www.jstor.org/stable/56112).
+344: 403–410. [https://www.jstor.org/stable/56112](https://www.jstor.org/stable/56112)
 
-Kingman, J. F. C. (1982). The coalescent. _Stochastic Processes and their Applications_, 13(3), 235-248. [https://doi.org/10.1016/0304-4149(82)90011-4](https://doi.org/10.1016/0304-4149(82)90011-4). 
+Kingman, J. F. C. (1982). The coalescent. _Stochastic Processes and their Applications_, 13(3), 235-248. [https://doi.org/10.1016/0304-4149(82)90011-4](https://doi.org/10.1016/0304-4149(82)90011-4)
 
+Pybus, O. G., Rambaut, A., & Harvey, P. H. (2000). An integrated framework for the inference of viral population history from reconstructed genealogies. Genetics, 155(3), 1429-1437. [https://doi.org/10.1093/genetics/155.3.1429](https://doi.org/10.1093/genetics/155.3.1429)
