@@ -1,0 +1,27 @@
+---
+title: "STATS 700-002 Class 4.\\newline Sampling through time in birth-death trees"
+author:
+  - "Edward Ionides and Aaron King"
+date: September 18, 2025
+date-format: long
+format:
+  beamer:
+    cite-method: natbib
+    biblio-style: apalike
+    incremental: true
+    slide-level: 2
+    classoption: t
+    header-includes:
+      - \usepackage{amssymb}
+      - \setbeamertemplate{footline}[page number]
+
+bibliography: ../phylodynamics.bib
+---
+
+## Stadler (2010)
+
+Stadler, T. (2010). Sampling-through-time in birth–death trees. _Journal of Theoretical Biology_, 267(3), 396-404. [https://doi.org/10.1016/j.jtbi.2010.09.010](https://doi.org/10.1016/j.jtbi.2010.09.010).
+
+
+# References
+
