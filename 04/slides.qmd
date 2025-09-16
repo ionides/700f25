@@ -22,6 +22,24 @@ bibliography: ../phylodynamics.bib
 
 Stadler, T. (2010). Sampling-through-time in birth–death trees. _Journal of Theoretical Biology_, 267(3), 396-404. [https://doi.org/10.1016/j.jtbi.2010.09.010](https://doi.org/10.1016/j.jtbi.2010.09.010).
 
+- Here, we start developing models for heterochronous genealogical trees (not all leaves are at the same time).
+
+## Birth-death trees vs the coalescent
+
+Stadler, T. (2009). On incomplete sampling under birth–death models and connections to the sampling-based coalescent. _Journal of Theoretical Biology_, 261(1), 58-66. [https://doi.org/10.1016/j.jtbi.2009.07.018](https://doi.org/10.1016/j.jtbi.2009.07.018)
+
+- Deals with homochronous sampling (i.e., all samples at the end time, $T$)
+
+- Similar to Kingman's coalescent, but not identical
+
+- What are the advantages and disadvantages?
+
+## Definitions
+
+- Notice the deletion of ancestors of unsampled lineages. We will call this _pruning_.
+
+\includegraphics[width=11cm]{stadler10-fig1.png}
+
 
 # References
 
