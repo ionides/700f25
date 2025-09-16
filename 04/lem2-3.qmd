@@ -1,0 +1,96 @@
+---
+title: "GPT helps with Lemma 2.3"
+author:
+  - "Edward Ionides and Aaron King"
+date: September 18, 2025
+date-format: long
+format:
+  pdf
+
+---
+
+**PROMPT**: what is this identity? can you prove it?
+
+\includegraphics[width=5cm]{lem2-3.png}
+
+**UM-GPT**: Let's state the identity and then prove it:
+
+## **The Identity**
+
+$$
+\sum_{N=n}^{\infty} \binom{N}{n} a^N = \frac{a^n}{(1-a)^{n+1}}
+$$
+
+where \(|a| < 1$.
+
+----
+
+## **Proof**
+
+Let's break the sum down and then manipulate it to get the right-hand side.
+
+### **Step 1: Rewrite the Binomial Coefficient**
+
+Recall that:
+
+$$
+\binom{N}{n} = \frac{N!}{n!(N-n)!}
+$$
+
+So,
+
+$$
+\sum_{N=n}^{\infty} \binom{N}{n} a^N
+$$
+
+But let's find a more convenient way—**Shift index:** Let $M = N - n$, so as $N$ goes from $n$ to $\infty$, $M$ goes from $0$ to $\infty$.
+
+So,
+
+$$
+\sum_{N=n}^{\infty} \binom{N}{n} a^N = \sum_{M=0}^{\infty} \binom{M+n}{n} a^{M+n}
+$$
+
+$$
+= a^n \sum_{M=0}^{\infty} \binom{M+n}{n} a^{M}
+$$
+
+----
+
+### **Step 2: Recognize the Generating Function**
+
+Recall the generating function:
+
+$$
+\sum_{M=0}^{\infty} \binom{M+n}{n} x^M = \frac{1}{(1-x)^{n+1}}, \quad |x| < 1
+$$
+
+Set $x = a$:
+
+$$
+\sum_{M=0}^{\infty} \binom{M+n}{n} a^M = \frac{1}{(1-a)^{n+1}}
+$$
+
+---
+
+### **Step 3: Multiply by $a^n$**
+
+$$
+a^n \sum_{M=0}^{\infty} \binom{M+n}{n} a^{M} = a^n \frac{1}{(1-a)^{n+1}}
+$$
+
+---
+
+### **Final Step: Write the Full Identity**
+
+$$
+\sum_{N=n}^{\infty} \binom{N}{n} a^N = \frac{a^n}{(1-a)^{n+1}}
+$$
+
+---
+
+## **Summary**
+
+This is a binomial sum identity, closely related to the generating function for the sequence $\binom{N+n}{n}$. The proof makes use of index shifting and properties of generating functions.
+
+**If you want more context or a different proof (e.g., combinatorial meaning or induction), just let me know!**

@@ -40,6 +40,22 @@ Stadler, T. (2009). On incomplete sampling under birth–death models and connec
 
 \includegraphics[width=11cm]{stadler10-fig1.png}
 
+## Lemma 2.3
+
+- How do you prove the first identity?
+
+\includegraphics[width=5cm]{lem2-3.png}
+
+- You can always [ask AI](lem2-3.pdf)
+
+## Master equations
+
+\begin{align*}
+    \dot{p}_0(t) &= \mu - (\lambda + \mu + \psi) p_0(t) + \lambda p_0(t)^2, &\quad p_0(0) = 1 - \rho, \\
+    \dot{p}_1(t) &= -(\lambda + \mu + \psi) p_1(t) + 2\lambda p_0(t)p_1(t), &\quad p_1(0) = \rho.
+\end{align*}
+
+- What are these, and where do they come from?
 
 # References
 
