@@ -57,5 +57,28 @@ Stadler, T. (2009). On incomplete sampling under birth–death models and connec
 
 - What are these, and where do they come from?
 
+## An informal derivation
+
+let $A_0(t)$, $A_1(t)$ be the events corresponding to $p_0(t)$, $p_1(t)$.
+\begin{align}
+& P[A_0(t+h)] = E\Big[ P\big[A_0(t+h) \, \big| \, \mbox{outcomes in $[t,t+h]$}\big]\Big] = \nonumber
+\\
+& \quad   (1- [\lambda+\mu+\phi] h ) P[A_0(t)]   
+\\
+& \quad   + \lambda h (P[A_0])^2               
+\\
+& \quad   + \mu h                              
+\\
+& \quad   + o(h^2)
+\end{align}
+Now substract $P[A_0(t)]$ from both sides, divide by $h$, and take a limit.
+
+Note: we've passed a limit through expectation without justification.
+
+
+## Theorem 3.1.
+
+How did Stadler guess this solution? 
+
 # References
 
