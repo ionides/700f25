@@ -48,6 +48,8 @@ Stadler, T. (2009). On incomplete sampling under birth–death models and connec
 
 - You can always [ask AI](lem2-3.pdf)
 
+- How do you know if AI got it right?
+
 ## Master equations
 
 \begin{align*}
@@ -65,20 +67,27 @@ let $A_0(t)$, $A_1(t)$ be the events corresponding to $p_0(t)$, $p_1(t)$.
 \\
 & \quad   (1- [\lambda+\mu+\phi] h ) P[A_0(t)]   
 \\
-& \quad   + \lambda h (P[A_0])^2               
+& \qquad   + \lambda h (P[A_0])^2               
 \\
-& \quad   + \mu h                              
+& \qquad   + \mu h                              
 \\
-& \quad   + o(h^2)
+& \qquad   + o(h)
 \end{align}
-Now substract $P[A_0(t)]$ from both sides, divide by $h$, and take a limit.
+Now subtract $P[A_0(t)]$ from both sides, divide by $h$, and take a limit.
 
 Note: we've passed a limit through expectation without justification.
 
 
 ## Theorem 3.1.
 
-How did Stadler guess this solution? 
+How did Stadler guess this solution?
+
+## Theorem 3.5.
+
+- This is a key result, since it gives the likelihood of a given genealogy under the linear birth-death-sampling model.
+
+- How is this derived?
+
 
 # References
 
