@@ -1,0 +1,29 @@
+---
+title: "STATS 700-002 Class 4.\\newline Sampling through time in birth-death trees"
+author:
+  - "Edward Ionides and Aaron King"
+date: September 25, 2025
+date-format: long
+format:
+  beamer:
+    cite-method: natbib
+    biblio-style: apalike
+    incremental: true
+    slide-level: 2
+    classoption: t
+    header-includes:
+      - \usepackage{amssymb}
+      - \setbeamertemplate{footline}[page number]
+
+bibliography: ../phylodynamics.bib
+---
+
+## @King2022
+
+King AA, Lin Q, Ionides EL. (2022)
+Markov genealogy processes.
+*Theoretical Population Biology* **143**:77--91.
+[(doi:10.1016/j.tpb.2021.11.003)](https://doi.org/10.1016/j.tpb.2021.11.003).
+
+# References
+
