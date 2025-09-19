@@ -15,6 +15,12 @@ __Course structure__. The classroom is flipped: each week, we study a paper in c
 
 __Grading__. This is a 1.5 credit course, meeting once a week throughout the semester. Grades will be based on attendance and participation.
 
+__Course materials__.
+
+- [Github repo (ionides/700f25)](https://github.com/ionides/700f25)
+
+- [Course Canvas](https://umich.instructure.com/courses/826586)
+
 __Syllabus__. The following schedule may be updated as the course proceeds.
 
 1. [8/28, Presented as introduction in the first class] Grenfell, B. T., Pybus, O. G., Gog, J. R., Wood, J. L., Daly, J. M., Mumford, J. A., & Holmes, E. C. (2004). Unifying the epidemiological and evolutionary dynamics of pathogens. _Science_, 303(5656), 327-332. [https://doi.org/10.1126/science.1090727](https://doi.org/10.1126/science.1090727). [slides](01/slides.pdf).
@@ -23,9 +29,9 @@ __Syllabus__. The following schedule may be updated as the course proceeds.
 
 3. [9/11] Volz, E. M., Kosakovsky Pond, S. L., Ward, M. J., Leigh Brown, A. J., & Frost, S. D. (2009). Phylodynamics of infectious disease epidemics. _Genetics_, 183(4), 1421-1430. [https://doi.org/10.1534/genetics.109.106021](https://doi.org/10.1534/genetics.109.106021). [slides](03/slides.pdf). [additional notes](kingman_likelihood).
 
-4. [9/18] Stadler, T. (2010). Sampling-through-time in birth–death trees. _Journal of Theoretical Biology_, 267(3), 396-404. [https://doi.org/10.1016/j.jtbi.2010.09.010](https://doi.org/10.1016/j.jtbi.2010.09.010).
+4. [9/18] Stadler, T. (2010). Sampling-through-time in birth–death trees. _Journal of Theoretical Biology_, 267(3), 396-404. [https://doi.org/10.1016/j.jtbi.2010.09.010](https://doi.org/10.1016/j.jtbi.2010.09.010). [slides](04/slides.pdf)
 
-5. [9/25] King, A. A., Lin, Q., & Ionides, E. L. (2022). Markov genealogy processes. _Theoretical Population Biology_, 143, 77-91. [https://doi.org/10.1016/j.tpb.2021.11.003](https://doi.org/10.1016/j.tpb.2021.11.003).
+5. [9/25] King, A. A., Lin, Q., & Ionides, E. L. (2022). Markov genealogy processes. _Theoretical Population Biology_, 143, 77-91. [https://doi.org/10.1016/j.tpb.2021.11.003](https://doi.org/10.1016/j.tpb.2021.11.003). [slides](05/slides.pdf)
 
 6. [10/2] Volz, E. M., Koelle, K., & Bedford, T. (2013). Viral phylodynamics. _PLOS Computational Biology_, 9(3), e1002947. [https://doi.org/10.1371/journal.pcbi.1002947](https://doi.org/10.1371/journal.pcbi.1002947).
 
@@ -38,4 +44,3 @@ __Syllabus__. The following schedule may be updated as the course proceeds.
 10. [10/30] Ki, C., & Terhorst, J. (2022). Variational phylodynamic inference using pandemic-scale data. _Molecular Biology and Evolution_, 39(8), msac154. [https://doi.org/10.1093/molbev/msac154](https://doi.org/10.1093/molbev/msac154).
 
 11-14. [11/6, 11/13, 11/20, 12/4] Team practicum: one or more groups identify a research project and make several weeks of progress.
-
