@@ -1,4 +1,4 @@
-# Homework 5
+# Class 5
 
 Reading: King AA, Lin Q, Ionides EL. (2022)
 Markov genealogy processes.

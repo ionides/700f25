@@ -1,7 +1,9 @@
 ---
-title: "STATS 700-002 Class 4.\\newline Sampling through time in birth-death trees"
+title: |
+  STATS 700-002 Class 5.\newline
+  Markov genealogy processes
 author:
-  - "Edward Ionides and Aaron King"
+  - Aaron King and Edward Ionides
 date: September 25, 2025
 date-format: long
 format:
