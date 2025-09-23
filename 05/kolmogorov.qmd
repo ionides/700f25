@@ -1,0 +1,67 @@
+---
+title: |
+  STATS 700-002 Class 5, extra material.\newline
+  Why are Kolmogorov's forward and backward equations adjoint?
+author:
+  - Aaron King and Edward Ionides
+date: September 25, 2025
+date-format: long
+format:
+  beamer:
+    cite-method: natbib
+    biblio-style: apalike
+    incremental: true
+    slide-level: 2
+    classoption: t
+    header-includes:
+      - \usepackage{amssymb}
+      - \setbeamertemplate{footline}[page number]
+
+---
+
+## Setup
+
+Let $\{X_t\}$ be a Markov process with transition density $f(x,s,y,t)$ determining the probbility density of $X_t$ at $y$ given $X_s=x$. 
+
+The forward operator, $L$, also known as the generator, satisfies
+$$\frac{\partial }{\partial t} f(x,s,y,t) = L f(x,s,y,t).$$
+The backward operator, $L^*$, satisfies
+$$\frac{\partial }{\partial s} f(x,s,y,t) = -L^* f(x,s,y,t).$$
+We will see that the minus sign here is needed to give an adjoint relationship between $L$ and $L^*$, so that, with $\langle p,q\rangle = \int p(x)q(x),.\, dx$,
+$$\langle Lp,q \rangle = \langle p, L^*q \rangle.$$
+
+__Note__. For a diffusion process, $L$ and $L^*$ have a $\partial/\partial y$ term describing drift and a  $\partial^2/\partial y^2$ term describing noise. For a jump process, the equations have sums over transitions.
+
+## An integrated form of the forward and backward equations
+
+Assuming enough regularity to enable us to move derivatives through integrals, we can rewrite the forward equation in terms of
+$$P_t= \int p(x) f(x,s,y,t) \, dx, $$
+the density at $t$ given $X_s\sim p(x)$.
+The forward equation gives
+$$\frac{\partial }{\partial t} P_t = LP_t.$$
+Similarly, for the backward equation, define
+$$Q_s= \int q(y) f(x,s,y,t) \, dy = E[q(X_t)|X_s=x].$$
+The integral form of the backward equation is
+$$\frac{\partial }{\partial s} Q_s = -L^*Q_s.$$
+
+## Why are $L$ and $L^*$ adjoint? An informal argument
+
+Start with
+$$E\Big[ q(X_t) \Big| X_s\sim p \Big] = \int\int p(x)f(x,s,y,t)q(y)\, dx\, dy.$$
+We can further integrate out over the value of $X_u$ to get
+$$
+E\Big[ q(X_t) \Big| X_s\sim p \Big] = \int\int P_uQ_u \, dx\, dy = \langle P_u,Q_u\rangle. 
+$$ {#eq-Eq}
+Note that $P_s=p$ and $Q_t=q$. 
+Now,
+$$P_{u+\delta} = P_u + \delta LP_u + o(\delta), \quad
+Q_{u+\delta} = Q_u - \delta L^* Q_u + o(\delta).$$
+Since @eq-Eq holds for all $u$, equating the expressions for $u$ and $u+\delta$ gives
+$$ \langle P_u,Q_u\rangle = \langle  P_u + \delta LP_u + o(\delta),Q_u - \delta L^* Q_u + o(\delta) \rangle.$$
+Distributing and taking a limit as $\delta\to 0$, it follows that
+$$
+\langle LP_u,Q_u\rangle = \langle P_u,L^*Q_u\rangle.
+$$ {#eq-adjoint}
+The adjoint property in @eq-adjoint holds for arbitrary $p$ and $q$.
+
+
