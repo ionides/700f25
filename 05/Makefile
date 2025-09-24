@@ -1,6 +1,6 @@
 default: pdf-docs
 
-pdf-docs: slides.pdf
+pdf-docs: slides.pdf kolmogorov.pdf
 
 PDFLATEX = pdflatex
 BIBTEX = bibtex

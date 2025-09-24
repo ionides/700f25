@@ -5,7 +5,7 @@ title: |
 author:
   - Aaron King and Edward Ionides
 date: September 25, 2025
-date-format: long
+date-format: D MMMM YYYY
 format:
   beamer:
     cite-method: natbib
@@ -13,6 +13,7 @@ format:
     incremental: true
     slide-level: 2
     classoption: t
+    aspectratio: 169
     header-includes:
       - \usepackage{amssymb}
       - \setbeamertemplate{footline}[page number]
@@ -21,13 +22,13 @@ format:
 
 ## Setup
 
-Let $\{X_t\}$ be a Markov process with transition density $f(x,s,y,t)$ determining the probbility density of $X_t$ at $y$ given $X_s=x$. 
+Let $\{X_t\}$ be a Markov process with transition density $f(x,s,y,t)$ determining the probability density of $X_t$ at $y$ given $X_s=x$. 
 
 The forward operator, $L$, also known as the generator, satisfies
 $$\frac{\partial }{\partial t} f(x,s,y,t) = L f(x,s,y,t).$$
 The backward operator, $L^*$, satisfies
 $$\frac{\partial }{\partial s} f(x,s,y,t) = -L^* f(x,s,y,t).$$
-We will see that the minus sign here is needed to give an adjoint relationship between $L$ and $L^*$, so that, with $\langle p,q\rangle = \int p(x)q(x),.\, dx$,
+We will see that the minus sign here is needed to give an adjoint relationship between $L$ and $L^*$, so that, with $\langle p,q\rangle = \int p(x)q(x)\,dx$,
 $$\langle Lp,q \rangle = \langle p, L^*q \rangle.$$
 
 __Note__. For a diffusion process, $L$ and $L^*$ have a $\partial/\partial y$ term describing drift and a  $\partial^2/\partial y^2$ term describing noise. For a jump process, the equations have sums over transitions.
