@@ -10,22 +10,95 @@ format:
   beamer:
     cite-method: natbib
     biblio-style: apalike
-    incremental: true
+    incremental: false
     slide-level: 2
     classoption: t
     header-includes:
       - \usepackage{amssymb}
       - \setbeamertemplate{footline}[page number]
 
-bibliography: ../phylodynamics.bib
 ---
 
-## @King2022
+## Outline
 
 King AA, Lin Q, Ionides EL. (2022)
 Markov genealogy processes.
 *Theoretical Population Biology* **143**:77--91.
 [(doi:10.1016/j.tpb.2021.11.003)](https://doi.org/10.1016/j.tpb.2021.11.003).
 
-# References
+1. A general framework for building phylogenies resulting from dynamic models of compartmentalized populations.
 
+1. Theorems on finding the likelihood.
+
+1. Computational strategies to implement the resulting formulas.
+
+## Various relevant processes
+
+\includegraphics[width=9.5cm]{king22-fig1.png}
+
+## Birth
+
+\includegraphics[width=11.5cm]{king22-fig3ab.png}
+
+## Sampling
+
+\includegraphics[width=11.5cm]{king22-fig3cd.png}
+
+## Death on an unobserved branch
+
+\includegraphics[width=11.5cm]{king22-fig4ab.png}
+
+## Death on an observed branch
+
+\includegraphics[width=11.5cm]{king22-fig4cd.png}
+
+## The lineage function, $\ell(t)$
+
+\includegraphics[width=9cm]{king22-fig5c.png}
+
+## Theorem 2
+
+\includegraphics[width=11cm]{king22-thm2.png}
+
+## Integrating over the population dynamics via sequential Monte Carlo (SMC), also known as the particle filter.
+
+* Each term in Theorem 2 can be treated as a "measurement"
+
+* This can be mapped on to the computational task of a hidden Markov model, also known as a state space model or a partially observed Markov process (POMP) model
+
+* A standard method for likelihood calculation in is the __particle filter__
+
+## Example: Stadler's birth-death model
+
+\includegraphics[width=11cm]{king22-fig7.png}
+
+## Example: SIR model
+
+\includegraphics[width=11cm]{king22-fig8.png}
+
+## Example: SIRS model
+
+\includegraphics[width=11cm]{king22-fig9.png}
+
+## Kolmogorov equations
+
+* For any one of the examples in Section 3, what is the corresponding Kolmogorov forward equation (Eq.&nbsp;3)?
+
+* Why are the forward and backward equations adjoint? [Solution](kolmogorov.pdf)
+
+
+## Why is the pruned-tree process Markovian?
+
+* This may be unexpected.
+
+* The full genealogy process is Markovian.
+
+* The pruned tree is a function of the full tree, and functions of Markov processes are not generally Markov.
+
+
+## Comparing with previous results
+
+1. Compare the form of the filter equation for the linear birth-death-sampling model (&sect;6) to that obtained by Stadler (2010).
+
+1. Compare the form of the filter equation for the SIR model (&sect;6) to that obtained by
+ Volz (2009).

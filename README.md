@@ -29,9 +29,9 @@ __Syllabus__. The following schedule may be updated as the course proceeds.
 
 3. [9/11] Volz, E. M., Kosakovsky Pond, S. L., Ward, M. J., Leigh Brown, A. J., & Frost, S. D. (2009). Phylodynamics of infectious disease epidemics. _Genetics_, 183(4), 1421-1430. [https://doi.org/10.1534/genetics.109.106021](https://doi.org/10.1534/genetics.109.106021). [homework description](03). [slides](03/slides.pdf). [additional notes](kingman_likelihood).
 
-4. [9/18] Stadler, T. (2010). Sampling-through-time in birth–death trees. _Journal of Theoretical Biology_, 267(3), 396-404. [https://doi.org/10.1016/j.jtbi.2010.09.010](https://doi.org/10.1016/j.jtbi.2010.09.010). [homework description](04). [slides](04/slides.pdf)
+4. [9/18] Stadler, T. (2010). Sampling-through-time in birth–death trees. _Journal of Theoretical Biology_, 267(3), 396-404. [https://doi.org/10.1016/j.jtbi.2010.09.010](https://doi.org/10.1016/j.jtbi.2010.09.010). [homework description](04). [slides](04/slides.pdf).
 
-5. [9/25] King, A. A., Lin, Q., & Ionides, E. L. (2022). Markov genealogy processes. _Theoretical Population Biology_, 143, 77-91. [https://doi.org/10.1016/j.tpb.2021.11.003](https://doi.org/10.1016/j.tpb.2021.11.003). [homework description](05). [slides](05/slides.pdf)
+5. [9/25] King, A. A., Lin, Q., & Ionides, E. L. (2022). Markov genealogy processes. _Theoretical Population Biology_, 143, 77-91. [https://doi.org/10.1016/j.tpb.2021.11.003](https://doi.org/10.1016/j.tpb.2021.11.003). [homework description](05). [slides](05/slides.pdf). [additional notes](05/kolmogorov.pdf).
 
 6. [10/2] Volz, E. M., Koelle, K., & Bedford, T. (2013). Viral phylodynamics. _PLOS Computational Biology_, 9(3), e1002947. [https://doi.org/10.1371/journal.pcbi.1002947](https://doi.org/10.1371/journal.pcbi.1002947).
 
