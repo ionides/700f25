@@ -96,6 +96,11 @@ Markov genealogy processes.
 * The pruned tree is a function of the full tree, and functions of Markov processes are not generally Markov.
 
 
+## Questions
+
+1. Regarding the absence of structure assumption, if there is population structure and migration events are occurring, how would the theory change?
+1. How is Eq.&nbsp;16 derived?
+
 ## Comparing with previous results
 
 1. Compare the form of the filter equation for the linear birth-death-sampling model (&sect;6) to that obtained by Stadler (2010).
