@@ -1,0 +1,29 @@
+---
+title: |
+  STATS 700-002 Class 6.\newline
+  Viral Phylodynamics
+author:
+  - Aaron King and Edward Ionides
+date: September 25, 2025
+date-format: long
+format:
+  beamer:
+    cite-method: natbib
+    biblio-style: apalike
+    incremental: false
+    slide-level: 2
+    classoption: t
+    aspectratio: 169
+    header-includes:
+      - \usepackage{amssymb}
+      - \setbeamertemplate{footline}[page number]
+
+---
+
+## Outline
+
+Volz, E. M., Koelle, K., & Bedford, T. (2013).
+Viral phylodynamics.
+PLOS Computational Biology, 9(3), e1002947. 
+[doi:10.1371/journal.pcbi.1002947](https://doi.org/10.1371/journal.pcbi.1002947).
+
