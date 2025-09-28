@@ -27,3 +27,37 @@ Viral phylodynamics.
 PLOS Computational Biology, 9(3), e1002947. 
 [doi:10.1371/journal.pcbi.1002947](https://doi.org/10.1371/journal.pcbi.1002947).
 
+
+----
+
+\includegraphics[height=8.3cm]{volz13-fig2.png} Fig. 2. Population structure
+
+## Structure: questions
+
+1. Given a tree and some information about leaves, what descriptive analysis (plots or summary statistics) would you use to investigate population structure?
+
+2. Descriptive statistics can be suggestive, but a suitable model is usually more conclusive. What models could you propose? How would you do inference for them?
+
+
+----
+
+\includegraphics[height=8.3cm]{volz13-fig3.png} Fig. 3. Immune escape
+
+## Immune escape: questions
+
+1. Immune escape is a property of evolution of the pathogen. What can we learn about immune escape via a compartment model for the host?
+
+1. What aspects of the epidemiology of immune escape can and cannot be addressed in the phylodynamic framework developed so far (compartment models for host dynamics investigated by their likelihood for phylogenetic tree data)?
+
+----
+
+\includegraphics[width=10cm]{volz13-fig6.png}
+
+(Fig. 6). What are the challenges and opportunites for studying _within host_ phylodynamics rather than _between host_?
+
+## Future directions
+
+1. To what extent has the future fulfilled the predictions of this review paper?
+
+
+
