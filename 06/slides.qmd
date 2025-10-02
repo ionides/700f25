@@ -55,9 +55,15 @@ PLOS Computational Biology, 9(3), e1002947.
 
 (Fig. 6). What are the challenges and opportunites for studying _within host_ phylodynamics rather than _between host_?
 
+## Methodology
+
+Beyond the coalescent-based methods described, the authors mention simulation-based approaches, including ABC.
+
+What is ABC and how might it be applied in this context?
+
 ## Future directions
 
-1. To what extent has the future fulfilled the predictions of this review paper?
+To what extent has the future fulfilled the predictions of this review paper?
 
 
 
