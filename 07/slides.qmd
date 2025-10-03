@@ -1,0 +1,28 @@
+---
+title: |
+  STATS 700-002 Class 7.\newline
+  Complex Population Dynamics and the Coalescent Under Neutrality
+author:
+  - Aaron King and Edward Ionides
+date: 9 October 2025
+date-format: long
+format:
+  beamer:
+    cite-method: natbib
+    biblio-style: apalike
+    incremental: false
+    slide-level: 2
+    classoption: t
+    aspectratio: 169
+    header-includes:
+      - \usepackage{amssymb}
+      - \setbeamertemplate{footline}[page number]
+
+---
+
+## Outline
+
+Volz, E. M. (2012)
+Complex population dynamics and the coalescent under neutrality.
+Genetics **190**: 187&ndash;201.
+[doi:10.1534/genetics.111.134627](https://doi.org/10.1534/genetics.111.134627)
