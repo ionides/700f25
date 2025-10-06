@@ -26,3 +26,40 @@ Volz, E. M. (2012)
 Complex population dynamics and the coalescent under neutrality.
 Genetics **190**: 187&ndash;201.
 [doi:10.1534/genetics.111.134627](https://doi.org/10.1534/genetics.111.134627)
+
+-----
+
+\includegraphics[height=8.3cm]{volz12-fig1.png}
+
+
+----
+
+\includegraphics[width=14.5cm]{volz12-fig2.png}
+
+
+----
+
+
+\includegraphics[width=14.5cm]{volz12-fig3.png}
+
+Fig 3. $n=250$ samples at $t=2.5$.
+
+----
+
+\includegraphics[height=8.3cm]{volz12-fig4.png}
+
+----
+
+\includegraphics[height=8cm]{volz12-fig5top.png} NLFT (Fig 5)
+
+
+----
+
+\includegraphics[height=8cm]{volz12-fig5bottom.png} NLFT (Fig 5)
+
+
+----
+
+\includegraphics[width=14.5cm]{volz12-fig6.png}
+
+__Fig 6.__ (Left) Model with m = 5 states, four birth terms, and seven migration terms. Blue arrows are logistic birth terms. Red arrows are migration. (Center) The population size $Y_k$ over time for each of 5 states. (Right) Likelihood profile of four (relative) birth rates and 95% CIs. 

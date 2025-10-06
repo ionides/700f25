@@ -33,9 +33,9 @@ __Syllabus__. The following schedule may be updated as the course proceeds.
 
 5. [9/25] King, A. A., Lin, Q., & Ionides, E. L. (2022). Markov genealogy processes. _Theoretical Population Biology_, 143, 77-91. [https://doi.org/10.1016/j.tpb.2021.11.003](https://doi.org/10.1016/j.tpb.2021.11.003). [homework description](05). [slides](05/slides.pdf). [additional notes](05/kolmogorov.pdf).
 
-6. [10/2] Volz, E. M., Koelle, K., & Bedford, T. (2013). Viral phylodynamics. _PLOS Computational Biology_, 9(3), e1002947. [https://doi.org/10.1371/journal.pcbi.1002947](https://doi.org/10.1371/journal.pcbi.1002947).
+6. [10/2] Volz, E. M., Koelle, K., & Bedford, T. (2013). Viral phylodynamics. _PLOS Computational Biology_, 9(3), e1002947. [https://doi.org/10.1371/journal.pcbi.1002947](https://doi.org/10.1371/journal.pcbi.1002947). [slides](06/slides.pdf).
 
-7. [10/9] Volz, E. M. (2012). Complex population dynamics and the coalescent under neutrality. _Genetics_, 190(1), 187-201. [https://doi.org/10.1534/genetics.111.134627](https://doi.org/10.1534/genetics.111.134627).
+7. [10/9] Volz, E. M. (2012). Complex population dynamics and the coalescent under neutrality. _Genetics_, 190(1), 187-201. [https://doi.org/10.1534/genetics.111.134627](https://doi.org/10.1534/genetics.111.134627). [slides](07/slides.pdf).
 
 8. [10/16] Vaughan, T. G., & Stadler, T. (2025). Bayesian Phylodynamic Inference of Multitype Population Trajectories Using Genomic Data. _Molecular Biology and Evolution_, 42(6), msaf130. [https://doi.org/10.1093/molbev/msaf130](https://doi.org/10.1093/molbev/msaf130).
 
