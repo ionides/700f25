@@ -27,6 +27,11 @@ Complex population dynamics and the coalescent under neutrality.
 Genetics **190**: 187&ndash;201.
 [doi:10.1534/genetics.111.134627](https://doi.org/10.1534/genetics.111.134627)
 
+* The first approach to phylodynamic likelihood for a compartment model with a structured population
+
+* Supposes that the model dynamics are determined by a system of differential equations
+
+
 -----
 
 \includegraphics[height=8.3cm]{volz12-fig1.png}
@@ -62,4 +67,33 @@ Fig 3. $n=250$ samples at $t=2.5$.
 
 \includegraphics[width=14.5cm]{volz12-fig6.png}
 
-__Fig 6.__ (Left) Model with m = 5 states, four birth terms, and seven migration terms. Blue arrows are logistic birth terms. Red arrows are migration. (Center) The population size $Y_k$ over time for each of 5 states. (Right) Likelihood profile of four (relative) birth rates and 95% CIs. 
+__Fig 6.__ (Left) Model with m = 5 states, four birth terms, and seven migration terms. Blue arrows are logistic birth terms. Red arrows are migration. (Center) The population size $Y_k$ over time for each of 5 states. (Right) Likelihood profile of four (relative) birth rates and 95% CIs.
+
+
+
+## Branching process approximations
+
+* Why does Volz describe his method as a branching process approximation?
+
+* How is the branching process approximation related to the assumption of a large population with a low sampling fraction?
+
+* How would you assess the inaccuracy incurred by the branching process approximation in a particular application?
+
+
+## Deterministic population dynamics
+
+* What are the benefits and weaknesses for data analysis of making an assumption of deterministic population dynamics?
+
+    * This is a question about the population model, not its relationship to phylodynamic data.
+
+* Is a branching process approximation to the phylodynamic model more suitable in a deterministic or stochastic population model, or are those decisions separate?
+
+
+
+## The [Riccati equation](https://en.wikipedia.org/wiki/Riccati_equation)
+
+* How do you solve Eq. (20)?
+
+* Is the proposed solution in Eq. (22) correct?
+
+
