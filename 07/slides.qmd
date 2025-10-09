@@ -51,7 +51,9 @@ Fig 3. $n=250$ samples at $t=2.5$.
 
 ----
 
-\includegraphics[height=8.3cm]{volz12-fig4.png}
+\includegraphics[height=7.3cm]{volz12-fig4.png} 
+
+I.T. invisible transition,  S.T. stage transition
 
 ----
 
@@ -95,5 +97,12 @@ __Fig 6.__ (Left) Model with m = 5 states, four birth terms, and seven migration
 * How do you solve Eq. (20)?
 
 * Is the proposed solution in Eq. (22) correct?
+
+----
+
+\includegraphics[width=14.5cm]{volz12-eq22.png}
+
+Credit: Ci-Yu
+
 
 
