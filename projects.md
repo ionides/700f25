@@ -26,7 +26,7 @@ The [syllabus](README.md) promised "Team practicum: one or more groups identify 
 
 Park, Y., & Koelle, K. (2025). Common misspecification of the generation interval leads to reproduction number underestimation in phylodynamic inference. bioRxiv, 2025-04. https://doi.org/10.1101/2025.04.28.649807
 
-Andr'eoletti, J, Zwaans, A, Warnock, RCM, Aguirre-Fern´andez, G, Barido-Sottani, J, Gupta, A, Stadler, T, & Manceau, M.
+Andréoletti, J, Zwaans, A, Warnock, RCM, Aguirre-Fernández, G, Barido-Sottani, J, Gupta, A, Stadler, T, & Manceau, M.
 The occurrence birth–death process for combined-evidence analysis in macroevolution and epidemiology.
 _Systematic Biology_ syac037 (2022).
 https://doi.org/10.1093/sysbio/syac037
@@ -46,7 +46,7 @@ New routes to phylogeography: a Bayesian structured coalescent approximation.
 _PLOS Genetics_ 11:e1005421.
 https://doi.org/10.1371/journal.pgen.1005421
 
-Vaughan, TG, K¨uhnert, D, Popinga, A, Welch, D, & Drummond, AJ. (2014).
+Vaughan, TG, Kühnert, D, Popinga, A, Welch, D, & Drummond, AJ. (2014).
 Efficient Bayesian inference under the structured coalescent.
 _Bioinformatics_ 30:2272–2279.
 https://doi.org/10.1093/bioinformatics/btu201
@@ -56,8 +56,7 @@ Deep learning and likelihood approaches for viral phylogeography converge on the
 _Systematic Biology_ 73:183–206.
 https://doi.org/10.1093/sysbio/syad074
 
-Voznica, J, Zhukova, A, Boskova, V, Saulnier, E, Lemoine, F, Moslonka-Lefebvre, M, & Gas-
-cuel, O. (2022).
+Voznica, J, Zhukova, A, Boskova, V, Saulnier, E, Lemoine, F, Moslonka-Lefebvre, M, & Gascuel, O. (2022).
 Deep learning from phylogenies to uncover the epidemiological dynamics of outbreaks.
 _Nature Communications_ 13:3896.
 https://doi.org/10.1038/s41467-022-31511-0
