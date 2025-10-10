@@ -1,0 +1,28 @@
+---
+title: |
+  STATS 700-002 Class 8.\newline
+  Multi-type branching process models for phylodynamics
+author:
+  - Aaron King and Edward Ionides
+date: 9 October 2025
+date-format: long
+format:
+  beamer:
+    cite-method: natbib
+    biblio-style: apalike
+    incremental: false
+    slide-level: 2
+    classoption: t
+    aspectratio: 169
+    header-includes:
+      - \usepackage{amssymb}
+      - \setbeamertemplate{footline}[page number]
+
+---
+
+## Outline
+
+ Vaughan, T. G., & Stadler, T. (2025). Bayesian Phylodynamic Inference of Multitype Population Trajectories Using Genomic Data. _Molecular Biology and Evolution_, 42(6), msaf130. [https://doi.org/10.1093/molbev/msaf130](https://doi.org/10.1093/molbev/msaf130).
+
+
+-----
