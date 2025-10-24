@@ -61,5 +61,6 @@ __Syllabus__. The following schedule may be updated as the course proceeds.
 [homework description](09).
 
 10. [10/30] Ki, C., & Terhorst, J. (2022). Variational phylodynamic inference using pandemic-scale data. _Molecular Biology and Evolution_, 39(8), msac154. [https://doi.org/10.1093/molbev/msac154](https://doi.org/10.1093/molbev/msac154).
+[homework description](10).
 
 11-14. [11/6, 11/13, 11/20, 12/4] Team practicum: one or more groups identify a research project and make several weeks of progress.
