@@ -1,0 +1,43 @@
+---
+title: |
+  STATS 700-002 Class 10.\newline
+  Variational phylodynamic inference
+author:
+  - Aaron King and Edward Ionides
+date: 30 October 2025
+date-format: long
+format:
+  beamer:
+    cite-method: natbib
+    biblio-style: apalike
+    incremental: false
+    slide-level: 2
+    classoption: t
+    aspectratio: 169
+    header-includes:
+      - \usepackage{amssymb}
+      - \setbeamertemplate{footline}[page number]
+
+---
+
+## Outline
+
+ Ki, & Terhorst (2022). Variational phylodynamic inference using pandemic-scale data. _Molecular Biology and Evolution_, 39(8), msac154. [https://doi.org/10.1093/molbev/msac154](https://doi.org/10.1093/molbev/msac154).
+
+1. How is variational inference applied to phylodynamic models?
+
+2. The role of automatic differentation. 
+
+
+-----
+
+\includegraphics[height=8.3cm]{ki22-fig1.png}
+
+----
+
+\includegraphics[height=8.3cm]{ki22-fig2.png}
+
+----
+
+\includegraphics[height=8.3cm]{ki22-fig3.png}
+
