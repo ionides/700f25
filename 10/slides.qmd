@@ -65,11 +65,49 @@ In 7th International Conference on Learning Representations,
 
 \includegraphics[height=8.3cm]{ki22-fig1.png}
 
+
+## Fig 1
+
+* This is to validate VBSKY on a problem that BEAST can also handle. VSBKY can handle many problems outside the scale of BEAST, and in that case we cannot make direct comparison.
+
+* Which method is more accurate in these examples? How do you determine this?
+
 ----
 
 \includegraphics[height=8.3cm]{ki22-fig2.png}
 
+## Fig 2
+
+* What is _biased sampling_ and how/why was it done?
+
+
 ----
 
 \includegraphics[height=8.3cm]{ki22-fig3.png}
+
+## Fig 3, Strain dynamics
+
+The model has a prior on $R$ that is time-invariant. For example,
+"Since $R>1$ is not a reasonable prior assumption for a strain which is known to have vanished, we shrank the prior distribution towards zero to attenuate this effect."
+ What is the scientific challenge for interpreting inferred $R$ values to learn about the biology?
+
+
+## Molecular clocks
+
+The paper uses a "strict molecular clock" model (page 9). What is this, and what are the consequences of that decision?
+
+## Heuristics
+
+* Developing demonstrably good approximations that enable quantitative analysis of large populations is a useful scientific task. Statistical mechanics for ideal gasses is a classic example.
+
+__Heuristic 1.__ Conditional independence of disjoint parts of the tree.
+   Here, we take random sub-samples.
+
+__Heuristic 2.__ Topology is approximately independent of the sequence data, given the parameters. We can separate estimation of the topology (from any scalable tree estimation method) from estimation of the branch lengths.
+
+* Separating the topology provides a continuous problem, amenable to a variational approximation.
+
+
+
+
 
