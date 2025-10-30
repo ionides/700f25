@@ -28,43 +28,45 @@ The presentation should involve slides and a guided discussion (which you will g
 
 * We can add to this list. In particular, you may come up with additional suggestions by making some Google Scholar investigations during your brainstorming.
 
-* Note that it is also valid to dig deeper into papers we have already read, perhaps identifying a particular part of the theory or results that you think is worth investigating in more detail.
+* An alternative option is to dig deeper into papers we have already read, perhaps identifying a particular part of the theory or results that you think is worth investigating in more detail.
 
-Park, Y., & Koelle, K. (2025). Common misspecification of the generation interval leads to reproduction number underestimation in phylodynamic inference. bioRxiv, 2025-04. https://doi.org/10.1101/2025.04.28.649807
+Park, Y., & Koelle, K. (2025). Common misspecification of the generation interval leads to reproduction number underestimation in phylodynamic inference. bioRxiv, 2025-04. [https://doi.org/10.1101/2025.04.28.649807](https://doi.org/10.1101/2025.04.28.649807)
 
 Andréoletti, J, Zwaans, A, Warnock, RCM, Aguirre-Fernández, G, Barido-Sottani, J, Gupta, A, Stadler, T, & Manceau, M.
 The occurrence birth–death process for combined-evidence analysis in macroevolution and epidemiology.
 _Systematic Biology_ syac037 (2022).
-https://doi.org/10.1093/sysbio/syac037
+[https://doi.org/10.1093/sysbio/syac037](https://doi.org/10.1093/sysbio/syac037)
 
 Attwood, SW, Hill, SC, Aanensen, DM, Connor, TR, & Pybus, OG. (2022). 
 Phylogenetic and phylodynamic approaches to understanding and combating the early SARS-CoV-2 pandemic.
 _Nature Reviews Genetics_ 23:547–562.
-https://doi.org/10.1038/s41576-022-00483-8
+[https://doi.org/10.1038/s41576-022-00483-8](https://doi.org/10.1038/s41576-022-00483-8)
 
 Damodaran, L, Jaeger, A, & Moncla, LH. (2024). 
 Intensive transmission in wild, migratory birds drove rapid geographic dissemination and repeated spillovers of H5N1 into agriculture in North America.
 _bioRxiv_ 2024.12.16.628739.
-https://doi.org/10.1101/2024.12.16.628739
+[https://doi.org/10.1101/2024.12.16.628739](https://doi.org/10.1101/2024.12.16.628739)
 
 De Maio, N, Wu, CH, O’Reilly, KM, & Wilson, D. (2015). 
 New routes to phylogeography: a Bayesian structured coalescent approximation.
 _PLOS Genetics_ 11:e1005421.
-https://doi.org/10.1371/journal.pgen.1005421
+[https://doi.org/10.1371/journal.pgen.1005421](https://doi.org/10.1371/journal.pgen.1005421)
 
 Vaughan, TG, Kühnert, D, Popinga, A, Welch, D, & Drummond, AJ. (2014).
 Efficient Bayesian inference under the structured coalescent.
 _Bioinformatics_ 30:2272–2279.
-https://doi.org/10.1093/bioinformatics/btu201
+[https://doi.org/10.1093/bioinformatics/btu201](https://doi.org/10.1093/bioinformatics/btu201)
 
 Thompson, A, Liebeskind, BJ, Scully, EJ, & Landis, MJ. (2024). 
 Deep learning and likelihood approaches for viral phylogeography converge on the same answers whether the inference model is right or wrong.
 _Systematic Biology_ 73:183–206.
-https://doi.org/10.1093/sysbio/syad074
+[https://doi.org/10.1093/sysbio/syad074](https://doi.org/10.1093/sysbio/syad074)
 
 Voznica, J, Zhukova, A, Boskova, V, Saulnier, E, Lemoine, F, Moslonka-Lefebvre, M, & Gascuel, O. (2022).
 Deep learning from phylogenies to uncover the epidemiological dynamics of outbreaks.
 _Nature Communications_ 13:3896.
-https://doi.org/10.1038/s41467-022-31511-0
+[https://doi.org/10.1038/s41467-022-31511-0](https://doi.org/10.1038/s41467-022-31511-0)
+
+
 
 
