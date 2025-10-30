@@ -107,6 +107,12 @@ __Heuristic 2.__ Topology is approximately independent of the sequence data, giv
 
 * Separating the topology provides a continuous problem, amenable to a variational approximation.
 
+## Variational inference
+
+* Key idea: finding the closest approximation to a Bayesian posterior within a tractable model class can be much easier than finding the exact posterior.
+
+* This approximation problem involves maximization, not Monte Carlo sampling.
+
 
 
 
