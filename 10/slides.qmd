@@ -29,7 +29,39 @@ format:
 2. The role of automatic differentation. 
 
 
------
+## Bayesian vs non-Bayesian phylodynamic inference
+
+* To what extent do you agree with the assertion that phylogenetic uncertainty is not reflected in frequentist point estimates but is included in Bayesian estimates?
+
+
+## Variational inference
+
+Fourment M, Darling AE. 2019.
+Evaluating probabilistic programming and fast variational Bayesian inference in phylogenetics.
+[PeerJ. 7:e8272.](https://peerj.com/articles/8272/)
+
+Fourment M, Magee AF, Whidden C, Bilge A, Matsen FA IV, Minin
+VN. 2020.
+19 dubious ways to compute the marginal likelihood
+of a phylogenetic tree topology.
+[Syst Biol. 69(2):209–220.](https://doi.org/10.1093/sysbio/syz046)
+
+Zhang C. 2020.
+Improved variational Bayesian phylogenetic inference with normalizing flows.
+[Advances in neural information processing systems, Vol. 33. p. 18760–18771.](https://proceedings.neurips.cc/paper/2020/file/d96409bf894217686ba124d7356686c9-Paper.pdf)
+
+Zhang C, Matsen FA IV. 2019. Variational Bayesian phylogenetic inference.
+In 7th International Conference on Learning Representations,
+[ICLR 2019; 2019 May 6–9](https://openreview.net/forum?id=SJVmjjR9FX)
+
+
+## Approximations
+
+* "A divide-and-conquer strategy where distant subtrees of a very large phylogeny are assumed to evolve approximately independently."
+
+* "Assume that topological estimates of these subtrees are an accurate reflection of their distribution under the prior."
+
+----
 
 \includegraphics[height=8.3cm]{ki22-fig1.png}
 
