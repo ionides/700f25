@@ -1,7 +1,8 @@
 
 # Plan for classes 11-14.
 
-The [syllabus](README.md) promised "Team practicum: one or more groups identify a research project and make several weeks of progress". It is time to work out details of how to implement that in a way that gives everyone a meaningful opportunity to engage with the research area and demonstrate some accomplishment, involving an amount of time appropriate for a 1.5 credit course.
+The [syllabus](README.md) promised "Team practicum: one or more groups identify a research project and make several weeks of progress".
+Our goal is to implement that in a way that gives everyone a meaningful opportunity to engage with the research area and demonstrate some accomplishment, involving an amount of time appropriate for a 1.5 credit course.
 
 11/5. Brainstorming homework. Everyone submits 2 or more potential project ideas. Some suggestions to help with this are given below.
 
@@ -9,7 +10,8 @@ The [syllabus](README.md) promised "Team practicum: one or more groups identify 
 
 11/13. Progress report. Everyone will report on what they have been doing. Each group should submit 1 slide to present. If you are taking the computation option, it would be good to show some concrete progress, such as successfully running some code provided in a published paper.
 
-11/20. First half of the final presentations. Assuming groups of size 2, we will have 3 presentations each lasting 25 min. The presentation should involve slides and a guided discussion (which you will guide) following the style of lectures, except that you won't be able to assume that everyone has previously read a paper on your specific topic.
+11/20. First half of the final presentations. Assuming groups of size 2, we will have 3 presentations per class, each lasting 25 min.
+The presentation should involve slides and a guided discussion (which you will guide) following the style of lectures, except that you won't be able to assume that everyone has previously read a paper on your specific topic.
 
 12/4. Second half of the final presentations.
 
@@ -22,7 +24,11 @@ The [syllabus](README.md) promised "Team practicum: one or more groups identify 
 3. For those who are in the course because they have experiences in closely related research topics, a natural project is to investigate that relationship (e.g,, by finding and identifying a relevant paper) and present it to the class. This is not the only option. If you would rather dive deeper into the main focus of this course, that is also welcome. If you propose a project of this kind in your brainstorming homework, you should ideally be willing to help a team-mate interested in collaborating on your topic.
 
 
-## A list of potentially interesting papers.
+## A list of potentially suitable papers.
+
+* We can add to this list. In particular, you may come up with additional suggestions by making some Google Scholar investigations during your brainstorming.
+
+* Note that it is also valid to dig deeper into papers we have already read, perhaps identifying a particular part of the theory or results that you think is worth investigating in more detail.
 
 Park, Y., & Koelle, K. (2025). Common misspecification of the generation interval leads to reproduction number underestimation in phylodynamic inference. bioRxiv, 2025-04. https://doi.org/10.1101/2025.04.28.649807
 
