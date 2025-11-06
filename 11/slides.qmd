@@ -30,7 +30,7 @@ _Systematic Biology_ syac037.
 Summarize the key methodological ideas, compare them with standard birth–death and coalescent approaches, and discuss their implications for macroevolutionary and epidemiological inference. Try reproducing a small example from the paper.
 
 2. Experiment with [phylodeep](https://github.com/evolbioinfo/phylodeep). This package relates to Voznica et al. (2022). Deep learning from phylogenies to uncover the transmission dynamics of epidemics. _Nat Commun_ 13:3896 [https://doi.org/10.1038/s41467-022-31511-0](https://doi.org/10.1038/s41467-022-31511-0).
-Three ohers proposed studying this paper.
+Three others proposed studying this paper.
 In particular, in the new Compact Bijective Ladderized Vector (CBLV) representation developed to facilitate deep learning.
 
 3. Reproducing results from Ki, C., & Terhorst, J. (2022). Variational phylodynamic inference using pandemic-scale data. _Molecular Biology and Evolution_, 39(8), msac154. [https://doi.org/10.1093/molbev/msac154](https://doi.org/10.1093/molbev/msac154).
