@@ -62,3 +62,13 @@ _PLOS Genetics_ 11:e1005421.
 11. Dengue to look at the role of competing serotypes.
     Nextstrain dengue portal with serotype-specific views (DENV1–DENV4): https://nextstrain.org/dengue
     Repository with workflows and curated inputs: https://github.com/nextstrain/dengue
+
+
+## Other brainstorming ideas
+
+12. Explain phylopomp (https://github.com/kingaa/phylopomp) to the class, perhaps in the context of the code for [King et al., 2025](https://github.com/kingaa/structured-genealogy-process-paper).
+
+13. Extend or improve the analysis in Peter Yang's honors thesis on [Phylodynamic Inference of MERS-CoV Using Structured Markov Genealogy Processes](https://ionides.github.io/students/peter_yang_honors_thesis.pdf), which has [code on GitHub](https://github.com/kingaa/yang-phylopomp).
+
+
+
