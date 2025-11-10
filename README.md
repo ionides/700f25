@@ -5,9 +5,6 @@ __Instructors__. [Aaron King](https://kinglab.eeb.lsa.umich.edu/king) and [Edwar
 Open to PhD and Masters students. Suitably prepared undergraduates may be admitted with instructor permission.
 
 Thu 1:00&ndash;2:30, 242 West Hall
-<!--
-in 453 West Hall. If enrollment requires, we will move to a larger location. 
--->
 
 __Description__. Statistics plays a critical role in scientific investigation, enabling rigorous confrontation between hypothesis and data.  Hypotheses may take the form of stochastic mechanistic models, and bringing such models into contact with data in a statistically efficient manner remains a cutting-edge challenge.  New data types add to the challenge.  In particular, biologists now commonly seek to extract information on disease transmission from virus genomes sampled from infected individuals: this is the subject of phylodynamics.  In this course, we will examine existing phylodynamic inference methods and identify research opportunities for contributions to phylodynamic methodology. To this end, we will study the necessary background on inference for stochastic processes, evolutionary biology and epidemiology.
 
@@ -65,9 +62,9 @@ __Syllabus__. The following schedule may be updated as the course proceeds.
 
 11. [11/6] Brainstorming [final project ideas](11/slides.pdf) following the [project description](projects).
 
-12. [11/13] Progress reports
+12. [11/13] Progress reports and feedback for [each team](12).
 
-13. [11/20] Presentations
+13. [11/20] Progress reports
 
 14. [12/4] Presentations
 
