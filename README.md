@@ -66,6 +66,7 @@ __Syllabus__. The following schedule may be updated as the course proceeds.
 
 13. [11/20] Progress reports
 
-14. [12/4] Presentations
+14. [12/4] [Final presentations](14). Also, by 12/5, please [submit a report](project_reports) that describes your project investigation in a bit more detail than is possible in a short presentation.
+
 
 
