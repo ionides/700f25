@@ -73,6 +73,6 @@ __Additional materials__.
 
 - Kunyang He's [notes on GitHub](https://github.com/kunyanghe21/stats-700-note)
 
-- Adam Ousherovitch and Adway Wadekar's [phylopomp DeepWiki](https://github.com/kunyanghe21/stats-700-note)
+- Adam Ousherovitch and Adway Wadekar's [phylopomp DeepWiki](https://deepwiki.com/kingaa/phylopomp/1-ove)
 
 
